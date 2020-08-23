@@ -1,0 +1,88 @@
+@media(max-width:991px){
+	.navbar-brand img{
+		width: 130px;
+	}
+   .navbar {
+    margin-top: 0px;
+   }
+.navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+    justify-content: center;
+}
+.navbar-nav .nav-link {
+    padding: 0 15px;
+}
+
+   .carousel-item h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+.carousel-item p {
+    font-size: 18px;
+}
+.btn-dark {
+    font-size: 16px;
+}
+.product a h1 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.product h2 {
+    font-size: 25px;
+}
+.product a {
+    font-size: 16px;
+}
+.categories-section h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.categories-section span {
+    width: 150px;
+}
+
+
+}
+@media(max-width: 767px){
+	.carousel-item{
+		padding-top: 50px;
+		padding-bottom: 50px;
+		text-align: center;
+	}
+	.carousel-item img{
+		max-width: 350px;
+	}
+	.carousel-item p {
+    font-size: 16px;
+}
+ .carousel-item h1 {
+    font-size: 25px;
+}
+.product{
+	margin-bottom: 30px;
+}
+.featured-product {
+    padding: 50px 0 25px;
+}
+.categories-section h1 {
+    font-size: 30px;
+}
+.categories-section a h3 {
+    font-size: 16px;
+}
+.categories-section span {
+    width: 110px;
+}
+
+
+}
+@media(max-width:575px){
+	.categories-section h1 {
+    font-size: 25px;
+}
+.categories-section span {
+    width: 100px;
+}
+
+}
